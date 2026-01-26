@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#slides-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    display: none;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+h1 { font-size: 70px; }
+h4, h5 { font-size: 40px; }
+p { font-size: 32px; }
+li { font-size: 32px; }
+
+img {
+    max-width: 100%;
+}
+
+#flash {
+    height: 300px;
+}
+
+.for {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formula {
+    height: 100px;
+}
+
+#light {
+    height: 200px;
+}
+
+.slide-number {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 35px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #f0f0f0;
+}
