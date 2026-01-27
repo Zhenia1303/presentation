@@ -30,31 +30,42 @@ body {
     display: block;
 }
 
-h1 { font-size: 70px; }
-h4, h5 { font-size: 40px; }
-p { font-size: 32px; }
-li { font-size: 32px; }
+h1 { font-size: 60px; }
+h4, h5 { font-size: 35px; }
+p { font-size: 22px; }
+li { font-size: 30px; }
+
+#zasada {
+    font-size: 30px;
+}
 
 img {
     max-width: 100%;
 }
 
-#flash {
-    height: 300px;
+#przyklad_kinetyki {
+    height: 150px;
+    width: 250px;
 }
 
-.for {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.formula {
-    height: 100px;
-}
-
-#light {
+#energia {
     height: 200px;
+}
+
+#moc {
+    height: 200px;
+    width: 250px;
+}
+
+#fizyka {
+    height: 400px;
+}
+
+#praca_mechniczna {
+    height: 250px;
+}
+#zasada_zachowania_energii {
+    height: 375px;
 }
 
 .slide-number {
