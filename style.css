@@ -13,6 +13,10 @@ body {
     position: relative;
 }
 
+h3 {
+    font-size: 170%;
+}
+
 .slide {
     width: 1920px;
     height: 1080px;
@@ -39,28 +43,8 @@ img {
     max-width: 100%;
 }
 
-#start {
+#programming, #ai, #media {
     height: 300px;
-}
-
-#top {
-    height: 400px;
-}
-#eliot {
-    height: 150px;
-    width: 700px;
-}
-
-.for {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-#ocena {
-    height: 150px;
 }
 
 .slide-number {
