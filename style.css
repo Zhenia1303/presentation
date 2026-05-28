@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background: #111;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: cursive;
 }
 
 #slides-wrapper {
@@ -34,18 +35,61 @@ h3 {
     display: block;
 }
 
+#swot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 h1 { font-size: 70px; }
 h4, h5 { font-size: 40px; }
 p { font-size: 32px; }
-li { font-size: 32px; }
+li { 
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: inside;
+}
+
+.slide:nth-child(11){
+    margin-top: 10%;
+}
+
+.div-right{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.div-left{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.ul-style {
+    list-style: outside;
+}
 
 img {
     max-width: 100%;
 }
 
-#programming, #ai, #media {
+#progress, #technologie, #cash, #imeges, #marketing{
     height: 300px;
 }
+
+ #technologie, #cash{
+    margin-top: 20px;
+ }
 
 .slide-number {
     position: fixed;
